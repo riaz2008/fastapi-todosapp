@@ -3,8 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:password@localhost/TodoApplicationDataBase'
-SQLALCHEMY_DATABASE_URL = 'postgresql://postgres.lyuobafrfsgqcnokxtcj:riaz123KhanS@aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres'
-
+SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://postgres.lyuobafrfsgqcnokxtcj:riazKhan123H@aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
